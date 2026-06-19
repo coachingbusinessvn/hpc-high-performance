@@ -1582,6 +1582,13 @@ a {
   line-height: 1.2;
 }
 
+.pricing-vat {
+  font-size: 0.75rem;
+  color: var(--color-text-muted, rgba(255,255,255,0.45));
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
 .pricing-save {
   font-size: 0.85rem;
   color: var(--color-mint);
