@@ -1,4 +1,18 @@
-.DS_Store
-*.docx
-*.pdf
-*.md
+# Ignore everything by default...
+/*
+
+# ...then whitelist only the files needed for the static GitHub Pages site
+!.gitattributes
+!.gitignore
+!.github/
+!CNAME
+!index.html
+!index.css
+!social.JPG
+!coach-ha-bui.JPG
+!coach-manh-ha.jpeg
+
+# Keep only the background image the site actually uses
+!/logo & background/
+/logo & background/*
+!/logo & background/background 916.jpeg
